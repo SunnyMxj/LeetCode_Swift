@@ -21,6 +21,8 @@
 		947E90B7221BD17B0084580B /* 006_ZigZagConversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947E90B6221BD17B0084580B /* 006_ZigZagConversion.swift */; };
 		947E90B9221BE9670084580B /* 008_StringToInteger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947E90B8221BE9670084580B /* 008_StringToInteger.swift */; };
 		947E90BB221D1EC90084580B /* 009_PalindromeNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947E90BA221D1EC90084580B /* 009_PalindromeNumber.swift */; };
+		947E90BD221D289C0084580B /* 017_LetterCombinationsOfAPhoneNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947E90BC221D289C0084580B /* 017_LetterCombinationsOfAPhoneNumber.swift */; };
+		947E90BF221D37AC0084580B /* 022_GenerateParentheses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947E90BE221D37AC0084580B /* 022_GenerateParentheses.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +43,8 @@
 		947E90B6221BD17B0084580B /* 006_ZigZagConversion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 006_ZigZagConversion.swift; sourceTree = "<group>"; };
 		947E90B8221BE9670084580B /* 008_StringToInteger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 008_StringToInteger.swift; sourceTree = "<group>"; };
 		947E90BA221D1EC90084580B /* 009_PalindromeNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 009_PalindromeNumber.swift; sourceTree = "<group>"; };
+		947E90BC221D289C0084580B /* 017_LetterCombinationsOfAPhoneNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 017_LetterCombinationsOfAPhoneNumber.swift; sourceTree = "<group>"; };
+		947E90BE221D37AC0084580B /* 022_GenerateParentheses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 022_GenerateParentheses.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,8 @@
 				947E90AA221647120084580B /* 013_RomanToInteger.swift */,
 				947E90AE22168A220084580B /* 015_3Sum.swift */,
 				947E90B22216B1460084580B /* 016_3SumClosest.swift */,
+				947E90BC221D289C0084580B /* 017_LetterCombinationsOfAPhoneNumber.swift */,
+				947E90BE221D37AC0084580B /* 022_GenerateParentheses.swift */,
 			);
 			path = Problems;
 			sourceTree = "<group>";
@@ -171,9 +177,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				947E90BD221D289C0084580B /* 017_LetterCombinationsOfAPhoneNumber.swift in Sources */,
 				94081E782215046D006C6F8F /* 001_TwoSum.swift in Sources */,
 				947E90BB221D1EC90084580B /* 009_PalindromeNumber.swift in Sources */,
 				947E90B5221B97970084580B /* 002_AddTwoNumbers.swift in Sources */,
+				947E90BF221D37AC0084580B /* 022_GenerateParentheses.swift in Sources */,
 				94081E6A22150417006C6F8F /* AppDelegate.swift in Sources */,
 				947E90B12216958C0084580B /* 012_IntegerToRoman.swift in Sources */,
 				947E90AD221689B70084580B /* 007_ReverseInteger.swift in Sources */,

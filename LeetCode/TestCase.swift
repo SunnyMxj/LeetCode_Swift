@@ -28,7 +28,9 @@ class TestCase: NSObject {
         
 //        let result = ZigZagConversion.convert("PAYPALISHIRING", 4)
         
-        let result = StringToInteger.myAtoi("2147483648")
-        print("result is " + String(result))
+//        let result = StringToInteger.myAtoi("2147483648")
+//        let result = PhoneNumber.letterCombinations("234")
+        let result = GenerateParentheses.generateParenthesis(3)
+//        print("result is " + String(result))
     }
 }
