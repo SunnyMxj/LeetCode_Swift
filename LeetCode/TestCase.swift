@@ -30,7 +30,15 @@ class TestCase: NSObject {
         
 //        let result = StringToInteger.myAtoi("2147483648")
 //        let result = PhoneNumber.letterCombinations("234")
-        let result = GenerateParentheses.generateParenthesis(3)
+//        let result = GenerateParentheses.generateParenthesis(3)
+        
+//        var arg = [[1,2,3],[4,5,6]]
+//        RotateImage.rotate(&arg)
+//        let result = Permutations.permute([1,2])
+//        let result = PermutationsII.permuteUnique([1,1,2])
+//        let result = CalculateMostWater.maxArea([2,3,4,5,18,17,6])
+//        let resutl = TrappingRainWater.trap([0,1,0,2,1,0,1,3,2,1,2,1])
+        let result = LongestCommonPrefix.longestCommonPrefix(["dog","racecar","car"])
 //        print("result is " + String(result))
     }
 }

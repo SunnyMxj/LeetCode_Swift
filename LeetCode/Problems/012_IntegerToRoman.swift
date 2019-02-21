@@ -71,7 +71,7 @@ class IntegerToRoman: NSObject {
         }
         var result = ""
         if num < 4 {
-            for i in 0..<num {
+            for _ in 0..<num {
                 result = result + one
             }
         } else if num == 4 {
@@ -80,7 +80,7 @@ class IntegerToRoman: NSObject {
             result = five
         } else if num < 9 {
             result = five
-            for i in 5..<num {
+            for _ in 5..<num {
                 result = result + one
             }
         } else if num == 9 {
