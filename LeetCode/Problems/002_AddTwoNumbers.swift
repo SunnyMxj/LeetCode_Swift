@@ -22,15 +22,6 @@
 
 import Foundation
 
-class ListNode {
-    public var val: Int
-    public var next: ListNode?
-    public init(_ val: Int) {
-        self.val = val
-        self.next = nil
-    }
-}
-
 class AddTwoNumbers: NSObject {
     class func addTwoNumbers(_ l1: ListNode?, _ l2: ListNode?) -> ListNode? {
         let result:ListNode = ListNode.init(0)

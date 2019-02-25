@@ -12,6 +12,8 @@
 		94081E6F22150419006C6F8F /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94081E6D22150419006C6F8F /* MainMenu.xib */; };
 		94081E782215046D006C6F8F /* 001_TwoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94081E772215046D006C6F8F /* 001_TwoSum.swift */; };
 		94081E7B221504FC006C6F8F /* TestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94081E7A221504FC006C6F8F /* TestCase.swift */; };
+		944FA2912223917100D1E881 /* 023_MergeKSortedLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944FA2902223917100D1E881 /* 023_MergeKSortedLists.swift */; };
+		944FA293222391EA00D1E881 /* 000_Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944FA292222391EA00D1E881 /* 000_Common.swift */; };
 		947E90AB221647120084580B /* 013_RomanToInteger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947E90AA221647120084580B /* 013_RomanToInteger.swift */; };
 		947E90AD221689B70084580B /* 007_ReverseInteger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947E90AC221689B70084580B /* 007_ReverseInteger.swift */; };
 		947E90AF22168A220084580B /* 015_3Sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947E90AE22168A220084580B /* 015_3Sum.swift */; };
@@ -29,6 +31,8 @@
 		947E90C7221E4CCF0084580B /* 011_ContainerWithMostWater.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947E90C6221E4CCF0084580B /* 011_ContainerWithMostWater.swift */; };
 		947E90C9221E6E470084580B /* 042_TrappingRainWater.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947E90C8221E6E470084580B /* 042_TrappingRainWater.swift */; };
 		947E90CB221E7B9D0084580B /* 014_LongestCommonPrefix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 947E90CA221E7B9D0084580B /* 014_LongestCommonPrefix.swift */; };
+		94E5AA21221F882600443F1F /* 031_NextPermutation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E5AA20221F882600443F1F /* 031_NextPermutation.swift */; };
+		94E5AA23221FA06500443F1F /* 049_GroupAnagrams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E5AA22221FA06500443F1F /* 049_GroupAnagrams.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +44,8 @@
 		94081E7122150419006C6F8F /* LeetCode.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LeetCode.entitlements; sourceTree = "<group>"; };
 		94081E772215046D006C6F8F /* 001_TwoSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 001_TwoSum.swift; sourceTree = "<group>"; };
 		94081E7A221504FC006C6F8F /* TestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCase.swift; sourceTree = "<group>"; };
+		944FA2902223917100D1E881 /* 023_MergeKSortedLists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 023_MergeKSortedLists.swift; sourceTree = "<group>"; };
+		944FA292222391EA00D1E881 /* 000_Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 000_Common.swift; sourceTree = "<group>"; };
 		947E90AA221647120084580B /* 013_RomanToInteger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 013_RomanToInteger.swift; sourceTree = "<group>"; };
 		947E90AC221689B70084580B /* 007_ReverseInteger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 007_ReverseInteger.swift; sourceTree = "<group>"; };
 		947E90AE22168A220084580B /* 015_3Sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 015_3Sum.swift; sourceTree = "<group>"; };
@@ -57,6 +63,8 @@
 		947E90C6221E4CCF0084580B /* 011_ContainerWithMostWater.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 011_ContainerWithMostWater.swift; sourceTree = "<group>"; };
 		947E90C8221E6E470084580B /* 042_TrappingRainWater.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 042_TrappingRainWater.swift; sourceTree = "<group>"; };
 		947E90CA221E7B9D0084580B /* 014_LongestCommonPrefix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 014_LongestCommonPrefix.swift; sourceTree = "<group>"; };
+		94E5AA20221F882600443F1F /* 031_NextPermutation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 031_NextPermutation.swift; sourceTree = "<group>"; };
+		94E5AA22221FA06500443F1F /* 049_GroupAnagrams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 049_GroupAnagrams.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +111,7 @@
 		94081E7922150474006C6F8F /* Problems */ = {
 			isa = PBXGroup;
 			children = (
+				944FA292222391EA00D1E881 /* 000_Common.swift */,
 				94081E772215046D006C6F8F /* 001_TwoSum.swift */,
 				947E90B4221B97970084580B /* 002_AddTwoNumbers.swift */,
 				947E90B6221BD17B0084580B /* 006_ZigZagConversion.swift */,
@@ -117,10 +126,13 @@
 				947E90B22216B1460084580B /* 016_3SumClosest.swift */,
 				947E90BC221D289C0084580B /* 017_LetterCombinationsOfAPhoneNumber.swift */,
 				947E90BE221D37AC0084580B /* 022_GenerateParentheses.swift */,
+				944FA2902223917100D1E881 /* 023_MergeKSortedLists.swift */,
+				94E5AA20221F882600443F1F /* 031_NextPermutation.swift */,
 				947E90C8221E6E470084580B /* 042_TrappingRainWater.swift */,
 				947E90C2221E39090084580B /* 046_Permutations.swift */,
 				947E90C4221E417D0084580B /* 047_PermutationsII.swift */,
 				947E90C0221E34020084580B /* 048_RotateImage.swift */,
+				94E5AA22221FA06500443F1F /* 049_GroupAnagrams.swift */,
 			);
 			path = Problems;
 			sourceTree = "<group>";
@@ -201,13 +213,17 @@
 				947E90BB221D1EC90084580B /* 009_PalindromeNumber.swift in Sources */,
 				947E90C5221E417D0084580B /* 047_PermutationsII.swift in Sources */,
 				947E90C1221E34020084580B /* 048_RotateImage.swift in Sources */,
+				944FA2912223917100D1E881 /* 023_MergeKSortedLists.swift in Sources */,
+				94E5AA21221F882600443F1F /* 031_NextPermutation.swift in Sources */,
 				947E90B5221B97970084580B /* 002_AddTwoNumbers.swift in Sources */,
 				947E90BF221D37AC0084580B /* 022_GenerateParentheses.swift in Sources */,
 				947E90C3221E39090084580B /* 046_Permutations.swift in Sources */,
+				944FA293222391EA00D1E881 /* 000_Common.swift in Sources */,
 				94081E6A22150417006C6F8F /* AppDelegate.swift in Sources */,
 				947E90B12216958C0084580B /* 012_IntegerToRoman.swift in Sources */,
 				947E90AD221689B70084580B /* 007_ReverseInteger.swift in Sources */,
 				947E90B32216B1460084580B /* 016_3SumClosest.swift in Sources */,
+				94E5AA23221FA06500443F1F /* 049_GroupAnagrams.swift in Sources */,
 				94081E7B221504FC006C6F8F /* TestCase.swift in Sources */,
 				947E90AB221647120084580B /* 013_RomanToInteger.swift in Sources */,
 				947E90C9221E6E470084580B /* 042_TrappingRainWater.swift in Sources */,
