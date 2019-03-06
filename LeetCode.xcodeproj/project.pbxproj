@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5369F1FA222CFA0E0066D052 /* 005_LongestPalindromicSubstring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5369F1F9222CFA0E0066D052 /* 005_LongestPalindromicSubstring.swift */; };
+		53FFD5DA222CB9A200767D74 /* 021_MergeTwoSortedLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53FFD5D9222CB9A200767D74 /* 021_MergeTwoSortedLists.swift */; };
+		53FFD5DC222CC4F400767D74 /* 024_SwapNodesInPairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53FFD5DB222CC4F400767D74 /* 024_SwapNodesInPairs.swift */; };
 		94081E6A22150417006C6F8F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94081E6922150417006C6F8F /* AppDelegate.swift */; };
 		94081E6C22150419006C6F8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94081E6B22150419006C6F8F /* Assets.xcassets */; };
 		94081E6F22150419006C6F8F /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94081E6D22150419006C6F8F /* MainMenu.xib */; };
@@ -36,6 +39,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5369F1F9222CFA0E0066D052 /* 005_LongestPalindromicSubstring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 005_LongestPalindromicSubstring.swift; sourceTree = "<group>"; };
+		53FFD5D9222CB9A200767D74 /* 021_MergeTwoSortedLists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 021_MergeTwoSortedLists.swift; sourceTree = "<group>"; };
+		53FFD5DB222CC4F400767D74 /* 024_SwapNodesInPairs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 024_SwapNodesInPairs.swift; sourceTree = "<group>"; };
 		94081E6622150417006C6F8F /* LeetCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeetCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		94081E6922150417006C6F8F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		94081E6B22150419006C6F8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -114,6 +120,7 @@
 				944FA292222391EA00D1E881 /* 000_Common.swift */,
 				94081E772215046D006C6F8F /* 001_TwoSum.swift */,
 				947E90B4221B97970084580B /* 002_AddTwoNumbers.swift */,
+				5369F1F9222CFA0E0066D052 /* 005_LongestPalindromicSubstring.swift */,
 				947E90B6221BD17B0084580B /* 006_ZigZagConversion.swift */,
 				947E90AC221689B70084580B /* 007_ReverseInteger.swift */,
 				947E90B8221BE9670084580B /* 008_StringToInteger.swift */,
@@ -125,8 +132,10 @@
 				947E90AE22168A220084580B /* 015_3Sum.swift */,
 				947E90B22216B1460084580B /* 016_3SumClosest.swift */,
 				947E90BC221D289C0084580B /* 017_LetterCombinationsOfAPhoneNumber.swift */,
+				53FFD5D9222CB9A200767D74 /* 021_MergeTwoSortedLists.swift */,
 				947E90BE221D37AC0084580B /* 022_GenerateParentheses.swift */,
 				944FA2902223917100D1E881 /* 023_MergeKSortedLists.swift */,
+				53FFD5DB222CC4F400767D74 /* 024_SwapNodesInPairs.swift */,
 				94E5AA20221F882600443F1F /* 031_NextPermutation.swift */,
 				947E90C8221E6E470084580B /* 042_TrappingRainWater.swift */,
 				947E90C2221E39090084580B /* 046_Permutations.swift */,
@@ -209,7 +218,9 @@
 			files = (
 				947E90BD221D289C0084580B /* 017_LetterCombinationsOfAPhoneNumber.swift in Sources */,
 				94081E782215046D006C6F8F /* 001_TwoSum.swift in Sources */,
+				53FFD5DA222CB9A200767D74 /* 021_MergeTwoSortedLists.swift in Sources */,
 				947E90C7221E4CCF0084580B /* 011_ContainerWithMostWater.swift in Sources */,
+				53FFD5DC222CC4F400767D74 /* 024_SwapNodesInPairs.swift in Sources */,
 				947E90BB221D1EC90084580B /* 009_PalindromeNumber.swift in Sources */,
 				947E90C5221E417D0084580B /* 047_PermutationsII.swift in Sources */,
 				947E90C1221E34020084580B /* 048_RotateImage.swift in Sources */,
@@ -231,6 +242,7 @@
 				947E90B9221BE9670084580B /* 008_StringToInteger.swift in Sources */,
 				947E90B7221BD17B0084580B /* 006_ZigZagConversion.swift in Sources */,
 				947E90CB221E7B9D0084580B /* 014_LongestCommonPrefix.swift in Sources */,
+				5369F1FA222CFA0E0066D052 /* 005_LongestPalindromicSubstring.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -368,8 +380,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = LeetCode/LeetCode.entitlements;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = LeetCode/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -377,6 +390,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Ryan.LeetCode;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
@@ -386,8 +400,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = LeetCode/LeetCode.entitlements;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = LeetCode/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -395,6 +410,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Ryan.LeetCode;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 			};
 			name = Release;

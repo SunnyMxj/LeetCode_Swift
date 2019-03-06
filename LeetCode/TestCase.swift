@@ -43,18 +43,16 @@ class TestCase: NSObject {
 //        let _ = NextPermutation.nextPermutation(&arg)
 //        let result = GroupAnagrams.groupAnagrams(["eat", "tea", "tan", "ate", "nat", "bat"])
         
-        let list1 = ListNode.init(1)
-        list1.next = ListNode.init(4)
-        list1.next!.next = ListNode.init(5)
-        let list2 = ListNode.init(1)
-        list2.next = ListNode.init(3)
-        list2.next!.next = ListNode.init(4)
-        let list3 = ListNode.init(2)
-        list3.next = ListNode.init(6)
-        let list4 = ListNode.init(1)
-        let result = MergeKSortedLists.mergeKLists([list1,list2,list3])
+//        let list1 = ListNode.init(1)
+//        list1.next = ListNode.init(2)
+//        list1.next!.next = ListNode.init(3)
+//        list1.next!.next!.next = ListNode.init(4)
+//        let result = SwapNodesInPairs.swapPairs(list1)
 //        let result = MergeKSortedLists.mergeKLists([list1,list2,list3])
 //        let result = MergeKSortedLists.mergeTwoLists(list1,list2)
+        
+        let result = LongestPalindromicSubstring.longestPalindrome("ccc")
+        
 //        print("result is " + String(result))
     }
 }
