@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		5369F1FA222CFA0E0066D052 /* 005_LongestPalindromicSubstring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5369F1F9222CFA0E0066D052 /* 005_LongestPalindromicSubstring.swift */; };
+		53CA93E4224DE4F400EC0F0F /* 214_ShortestPalindrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53CA93E3224DE4F400EC0F0F /* 214_ShortestPalindrome.swift */; };
 		53FFD5DA222CB9A200767D74 /* 021_MergeTwoSortedLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53FFD5D9222CB9A200767D74 /* 021_MergeTwoSortedLists.swift */; };
 		53FFD5DC222CC4F400767D74 /* 024_SwapNodesInPairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53FFD5DB222CC4F400767D74 /* 024_SwapNodesInPairs.swift */; };
 		94081E6A22150417006C6F8F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94081E6922150417006C6F8F /* AppDelegate.swift */; };
@@ -40,6 +41,7 @@
 
 /* Begin PBXFileReference section */
 		5369F1F9222CFA0E0066D052 /* 005_LongestPalindromicSubstring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 005_LongestPalindromicSubstring.swift; sourceTree = "<group>"; };
+		53CA93E3224DE4F400EC0F0F /* 214_ShortestPalindrome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 214_ShortestPalindrome.swift; sourceTree = "<group>"; };
 		53FFD5D9222CB9A200767D74 /* 021_MergeTwoSortedLists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 021_MergeTwoSortedLists.swift; sourceTree = "<group>"; };
 		53FFD5DB222CC4F400767D74 /* 024_SwapNodesInPairs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 024_SwapNodesInPairs.swift; sourceTree = "<group>"; };
 		94081E6622150417006C6F8F /* LeetCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeetCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -142,6 +144,7 @@
 				947E90C4221E417D0084580B /* 047_PermutationsII.swift */,
 				947E90C0221E34020084580B /* 048_RotateImage.swift */,
 				94E5AA22221FA06500443F1F /* 049_GroupAnagrams.swift */,
+				53CA93E3224DE4F400EC0F0F /* 214_ShortestPalindrome.swift */,
 			);
 			path = Problems;
 			sourceTree = "<group>";
@@ -233,6 +236,7 @@
 				94081E6A22150417006C6F8F /* AppDelegate.swift in Sources */,
 				947E90B12216958C0084580B /* 012_IntegerToRoman.swift in Sources */,
 				947E90AD221689B70084580B /* 007_ReverseInteger.swift in Sources */,
+				53CA93E4224DE4F400EC0F0F /* 214_ShortestPalindrome.swift in Sources */,
 				947E90B32216B1460084580B /* 016_3SumClosest.swift in Sources */,
 				94E5AA23221FA06500443F1F /* 049_GroupAnagrams.swift in Sources */,
 				94081E7B221504FC006C6F8F /* TestCase.swift in Sources */,
